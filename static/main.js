@@ -57,7 +57,7 @@ function calculate_duration(begin_time) {
 
 function submit() {
     submit_btn.disabled = true;
-    submit_btn.innerHTML = "请稍候"
+    result.innerHTML = "正在制作表情包，请稍后......";
 
     var begin_time = Date.now();
 
@@ -70,7 +70,6 @@ function submit() {
             } else {
                 result.innerHTML = this.responseText;
             }
-            submit_btn.innerHTML = "生成";
             submit_btn.disabled = false;
         }
     };
