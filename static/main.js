@@ -10,13 +10,13 @@ function generateSidebarCode() {
     b.textContent = '×';
     sidebarDiv.appendChild(b);
 
-    sidebarDiv.appendChild(getLabel('/tpl/sorry/', '为所欲为'));
-    sidebarDiv.appendChild(getLabel('/tpl/wangjingze/', '我就是饿死'));
-    sidebarDiv.appendChild(getLabel('/tpl/kongming/', '孔明'));
-    sidebarDiv.appendChild(getLabel('/tpl/dagong/', '打工'));
-    sidebarDiv.appendChild(getLabel('/tpl/diandongche/', '电动车'));
-    sidebarDiv.appendChild(getLabel('/tpl/jinkela/', '金坷垃'));
-    sidebarDiv.appendChild(getLabel('/tpl/marmot/', 'marmot'));
+    sidebarDiv.appendChild(getLabel('/tpl/sorry', '为所欲为'));
+    sidebarDiv.appendChild(getLabel('/tpl/wangjingze', '我就是饿死'));
+    sidebarDiv.appendChild(getLabel('/tpl/kongming', '孔明'));
+    sidebarDiv.appendChild(getLabel('/tpl/dagong', '打工'));
+    sidebarDiv.appendChild(getLabel('/tpl/diandongche', '电动车'));
+    sidebarDiv.appendChild(getLabel('/tpl/jinkela', '金坷垃'));
+    sidebarDiv.appendChild(getLabel('/tpl/marmot', 'marmot'));
 
     return sidebarDiv;
 }
